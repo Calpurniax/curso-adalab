@@ -82,7 +82,32 @@
         <input type="submit">
       </label>
     </form>
+    <form>
+      <label for="correo">
+          <span>Correo</span>
+          <input type="email" id="correo" name="correo" autocomplete="email" required>
+      </label>
+      <label for="pais">
+          <span>País</span>
+          <input type="text" id="pais" name="pais" autocomplete="country" required>
+      </label>
+      <label for="codigopostal">
+          <span>Código Postal</span>
+          <input type="number" id="codigopostal" name="codigopostal" autocomplete="postal-code" required>
+      </label>
+      <p>
+      <span>Elige un plato principal</span>
+      <input list="comidas">      
+      <datalist id="comidas">
+        <option value="lomo de cerdo"></option>
+        <option value="alitas"></option>
+        <option value="caballa"></option>
+        <option value="sepia"></option>
+      </datalist>
+      <input type="submit">
+      </p>
+    </form>
     </main>
-    <footer>piesito</footer>
+    <footer></footer>
   </body>
 </html>
