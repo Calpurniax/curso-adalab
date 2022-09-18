@@ -1,0 +1,13 @@
+h2 {
+    font-size:larger;
+    color: darkolivegreen;
+ }
+ .encabezadolista {
+    font-style: oblique;
+  }
+  #link {
+    color: salmon;
+  }
+  span {
+    color: rgb(164, 64, 221);
+  }
