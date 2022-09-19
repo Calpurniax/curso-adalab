@@ -1,7 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .main-nav {
     margin-top: 30px;
     list-style: none;
-    padding-left: 0px ;
+    padding-left: 10px ;
     background-color: rgb(224, 220, 172);
 }
 .main-nav__item {
@@ -23,7 +28,12 @@
 .main-nav__item a::after {
     content: " | ";
  }
-
+main {
+  width: 100%;
+  height: 600px;
+  border: 5px solid rgb(224, 220, 172);
+  padding: 15px 40px;
+}
 h2 {
     font-size:larger;
     color: darkolivegreen;
