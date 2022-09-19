@@ -1,13 +1,46 @@
+.main-nav {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0px ;
+    background-color: rgb(224, 220, 172);
+}
+.main-nav__item {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+.main-nav__item a {
+    text-decoration: none;
+    color: darkolivegreen;
+    }
+.main-nav__item a:hover {
+  color:rgb(121, 97, 52)
+}
+.main-nav__item a::before {
+  content: " | ";
+}
+.main-nav__item a::after {
+    content: " | ";
+ }
+
 h2 {
     font-size:larger;
     color: darkolivegreen;
  }
- .encabezadolista {
-    font-style: oblique;
+
+.lista {
+    font-style: oblique; list-style: none;
   }
-  #link {
+.sublista {
+    color:salmon;
+  }
+.sublista a:hover {
+    color:goldenrod;
+  }
+#link {
     color: salmon;
   }
-  span {
+span {
     color: rgb(164, 64, 221);
   }
