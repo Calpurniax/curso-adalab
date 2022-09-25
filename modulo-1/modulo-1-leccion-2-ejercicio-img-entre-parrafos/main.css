@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+.parrafo {
+    background-color: blanchedalmond;
+    border: 5px solid darkorange;
+}
+.croqueta {
+    width: 200px;
+    height: 200px;
+}

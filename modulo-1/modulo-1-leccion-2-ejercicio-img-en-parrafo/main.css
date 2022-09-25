@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/pollo-frito.jpg);
+    overflow: auto;
+}

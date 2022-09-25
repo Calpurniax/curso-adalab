@@ -1,0 +1,110 @@
+:root{
+    --title-color: grey;
+    --link-color: green;
+    --title-margin: 0px;
+    --body-margin: 0px;
+    --header-background: #eaeaea;
+    --p-font-size: 20px;
+    --header-padding:20px;
+    --main-padding: 20px;
+    --p-width: 50%;
+  }
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('assets/Merriweather-Regular.ttf');
+
+}
+  
+  body {
+    margin: var(--body-margin);
+    font-family: 'Merriweather', sans-serif ;
+  }
+  
+  header{
+    background-color:var(--header-background);
+    padding:var(--header-padding);
+  }
+  
+  main{
+    padding: var(--main-padding);
+  }
+  
+  p {
+    width:var(--p-width);
+    font-size: var(--p-font-size);
+  }
+  
+  ul{
+    list-style-type:none;
+    padding:0
+  }
+  
+  .title{
+    color: var(--title-color);
+    margin: var(--title-margin);
+  }
+  
+  .subtitle{
+    color: var(--title-color);
+    margin: var(--title-margin);
+  }
+  
+  .menu li {
+    display:inline
+  }
+  
+  .menu a {
+    color: var(--link-color);
+    text-decoration:none
+  }
+  
+  p a {
+    color: var(--link-color);
+  }
+  
+  
+body {
+    margin:var(--body-margin);
+  }
+  
+header{
+    background-color:var(--header-background);
+    padding:var(--header-padding);
+  }
+  
+main{
+    padding: var(--main-padding);
+  }
+  
+p {
+    width:var(--p-width);
+    font-size: var(--p-font-size);
+  }
+  
+ul{
+    list-style-type:none;
+    padding:0
+  }
+  
+.title{
+    color: var(--title-color);
+    margin: var(--title-margin);
+  }
+.subtitle{
+    color: var(--title-color);
+    margin: var(--title-margin);
+  }
+  
+.menu li {
+    display:inline
+  }
+  
+.menu a {
+    color:var(--link-color);
+    text-decoration:none
+  }
+  
+p a {
+    color:var(--link-color);
+  }

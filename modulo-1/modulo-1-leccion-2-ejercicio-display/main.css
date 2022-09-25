@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.prueba {
+    padding-top:40px;
+}
+.div2 {
+    padding-top: 10px;
+}

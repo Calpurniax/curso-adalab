@@ -1,0 +1,23 @@
+.primer-bloque {
+    background-color: red;
+    width: 10%;
+    padding: 25px;
+    position: absolute;
+    top: -50px; left: 50%;
+    transform: translate(-50%,0);
+    
+}
+.contenedor {
+    background-color: gainsboro;
+    margin: auto;
+    width: 300px;
+    min-height: 10px;
+    position: absolute;
+    top: 60px; 
+    padding: 35px;
+}
+
+
+
+
+

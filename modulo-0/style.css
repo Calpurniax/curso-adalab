@@ -52,7 +52,9 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
+.compra {
+  display: inline-block;
+}
 .lista {
   font-size: 1.6rem;
   margin-top: 5px;
@@ -69,8 +71,14 @@ ol > li a {
 ol > li a:hover {
   color:goldenrod;
 }
+.foto-compra {
+  padding-top: 20rem;
+}
 .foto-verduras {
-  margin-top: 2rem;
+  position: relative;
+  margin-left: 5rem;
+  
+
 }
 figcaption {
   color: rgb(77, 97, 46);
