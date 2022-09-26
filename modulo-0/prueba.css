@@ -1,3 +1,42 @@
+/* li {
+    background-color: aquamarine;
+    display: inline;
+}
+.header .link {
+    padding: 15px;
+} */
+/* cuando tienes un link es interesante agrandar el espacio en el que se puede hacer click, sobre todo por tema móvil por eso el padding es interesante. al ser inline no podemos poner espacio por arriba o por abajo, ni con padding ni con margin. Podemos trampear los margenes de los otros elementos que hay
+*/ 
+li {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 200px;
+} 
+ /* esta es otra opción para hacer cajitas  */
+
+ .header .link {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+ }
+ /* aqui al ponerle block ya podriamos ponerle margenes y demás, pero quedan en linea porque lo pone en li */
+
+ .hero {
+    background-image: url(/tinified/grande.jpg);
+    background-position: center;
+    background-size: 100%;
+    
+ }
+ .hero .title {
+    color: bisque;
+    font-size: 30px;
+    width: 50%;
+    padding: 100px;
+ }
+.title span {
+    color: aqua;
+}
 .primer-bloque {
     background-color: red;
     width: 10%;
@@ -5,6 +44,7 @@
     position: absolute;
     top: -50px; left: 50%;
     transform: translate(-50%,0);
+    display: none;
     
 }
 .contenedor {
@@ -15,6 +55,7 @@
     position: absolute;
     top: 60px; 
     padding: 35px;
+    display: none;
 }
 
 
