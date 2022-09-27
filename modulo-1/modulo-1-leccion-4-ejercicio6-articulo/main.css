@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.articulo {
+    border: solid 8px black;    
+    height: 100vh;
+}
+.contenedor {
+    margin-top: 160px;    
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    
+    
+
+}
+.autor {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 27px;
+}
+.texto-principal {
+    margin-bottom: 27px;
+    font-size: 18px;
+}
+.enlace {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: -16px;
+}
+
+/*me falta posicionar bien todo el texto dentro del body*/
