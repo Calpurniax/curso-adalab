@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cookies {
+    background-color: yellow;
+    position: fixed;
+    top: 95%;
+    height: 100px;
+    width: 100%;
+}/* no tengo muy claro si la medida de 100px se aplica aqui bien*/
