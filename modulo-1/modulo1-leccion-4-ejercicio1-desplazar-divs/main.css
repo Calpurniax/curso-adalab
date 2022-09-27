@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor-madre {
+    background-color: #c3eeff;
+    position: absolute;
+    right: 150px;
+}
+.div {
+    width: 300px;
+    height: 300px;    
+    margin: 40px;
+}
+.div1 {
+    position: relative;
+    left: 100px;
+    top: 50px;    
+    background-color: blueviolet;
+
+}
+.div2 {
+    position: relative;
+    right: 150px;
+    bottom: 320px;
+    background-color: palevioletred
+}
+.div3 {
+    position: relative;
+    left: 180px;
+    bottom: 240px;
+    background-color: #EEA7E8;
+}
