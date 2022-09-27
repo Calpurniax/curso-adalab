@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    color: aliceblue;
+    background-color: blueviolet;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+}
+.principal {
+    position: relative;
+    top: 30px;
+}
