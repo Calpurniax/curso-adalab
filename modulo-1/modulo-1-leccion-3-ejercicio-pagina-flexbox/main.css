@@ -7,34 +7,37 @@ header {
     background-color: rgb(136, 76, 76);
     height: 10vh;
     justify-content: center;
+    align-items: center;
 }
 .contenedor-cuerpo {
     display: flex;
-    flex-direction: row; 
-
+    flex-direction: row;    
+}
+.aside1, .aside2 {
+    height: 80vh;
+    width: 20%;  
+    display: flex; /*tienes que ponerlo en este contenedor también si quieres centrar el texto de forma fácil, porque el texto de dentro es nieto*/
+    justify-content: center;
 }
 .aside1 {
-    background-color: yellow;
-    height: 80vh;
-    width: 20%;
-    
+    background-color: yellow;   
 }
+
 .parrafo-central {
     background-color: aqua;
     height: 80vh;
     width: 80%;
-    
+    display: flex;
+    padding-top: 10px;
+        
 }
 .aside2 {
     background-color: pink;
-    height: 80vh;
-    width: 20%;
-    
-
 }
 footer {
     display: flex;
     height: 10vh;
     background-color: green ;
     justify-content: center;
+    align-items: center;
 }
