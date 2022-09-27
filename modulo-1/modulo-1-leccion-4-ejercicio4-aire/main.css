@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.principal {
+    position: absolute;
+    max-width: 600px;
+    width: 86%;
+}
+p {
+    text-align: center;
+}
+/*no consigo que ocupe el 86% pero a la vez centrado*/
