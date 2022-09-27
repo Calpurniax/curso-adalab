@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    
+}
+header {
+    background-color: rgb(230, 203, 203);
+    height: 10vh;
+}
+main {
+    background-color: blanchedalmond;
+    min-height: 80vh;
+}
+footer {
+    background-color: rgb(255, 228, 109);
+    height: 10vh;
+}
+p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

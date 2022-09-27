@@ -1,0 +1,37 @@
+.barra-navegador {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.elemento-navegador {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20px;
+       
+}
+.contenedor-flex{
+    display: flex;
+    background-color: aquamarine;
+    box-sizing: border-box ;
+    border: 2px solid;
+    border-color:  black;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+.item {
+    background-color: pink;
+    width: 200px;
+    height: 100px;
+}
