@@ -3,10 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+main {
+    position: relative;
+}
 .principal {
-    position: absolute;
+    position: relative;
     max-width: 600px;
     width: 86%;
+    margin: auto;
 }
 p {
     text-align: center;
