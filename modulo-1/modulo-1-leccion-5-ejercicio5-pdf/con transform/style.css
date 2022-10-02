@@ -1,0 +1,18 @@
+.subrayado {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgrey;
+}
+.nombre {
+    padding: 2rem 1rem 0 1rem;
+}
+.etiqueta {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+.etiqueta a{
+    background-color: red;
+    padding: 0.2rem;
+    color: white;
+    text-decoration: none;
+}
