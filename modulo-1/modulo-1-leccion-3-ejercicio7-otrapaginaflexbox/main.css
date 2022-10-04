@@ -1,0 +1,51 @@
+*{ 
+    box-sizing: border-box;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.bloque-gris {
+    width: 50px;
+    max-height: 50px;
+    background-color: gray;
+}
+.bloque-principal {
+    
+       
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo {
+    display: block;
+
+}
+.bloque-puntuacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+   max-width: 20vh;
+   max-height: 20vh;
+   
+   
+} 
+.valoraciones {
+    font-size: 10px;
+    padding-right: 20px;
+}
+.bloque-puntuacion > div {
+    width: 50%;
+
+    
+}
+.estrella {
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 10px;
+    
+    
+}
