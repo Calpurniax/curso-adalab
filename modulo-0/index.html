@@ -1,71 +1,137 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="página de prueba de HTML">
-    <meta name="viewport" content="width=device-width, initial-scale=1-0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Mi página</title>
-  </head>
-  <body>
-    <header class="page-header">
-      <h1>Vamos a comer</h1>
-      <nav>
-        <ul class="main-nav">
-          <li class="main-nav-item"><a href="">Home</a></li>
-          <li class="main-nav-item"><a href="">Recetas</a></li>
-          <li class="main-nav-item alt-main-nav-item" ><a href="">Formularios</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <h2>Lista de la compra</h2>
-      <section class="compra" >
-        <ul>
-            <li class="lista">Carne</li>
-                <ol>
-                  <li><a href="https://www.bonviveur.es/recetas/lomo-de-cerdo-adobado">Lomo de cerdo</a></li>
-                  <li><a href="https://www.recetasderechupete.com/alitas-de-pollo-al-horno-con-salsa-de-soja-miel-y-limon/9995/">Alitas de pollo</a></li>
-                </ol>
-              </ul>
-              <ul>
-                  <li class="lista">Verdura</li>
-               <ol>
-                  <li><a href="https://www.hogarmania.com/cocina/recetas/postres/tarta-calabaza-9752.html">Calabaza</li></a>
-                  <li><a href="https://www.cocinatis.com/receta/tomates-verdes-fritos-una-receta-con-nombre-de-pelicula">Tomates</li></a>
-                      </ol>
-             </ul>
-              <ul>
-                 <li class="lista">Pescado</li>
-               <ol>
-                <li><a href="https://comerjapones.com/shimesaba-receta">Caballa</li></a>
-                 <li><a href="https://www.recetasderechupete.com/como-hacer-sepia-al-ajillo/20941/">Sepia</li></a>         
-               </ol>
-          </ul>
-      </section>
-      <section class="compra foto-compra">
-        <figure class="foto-verduras">
-          <img src="./tinified/chiquita.jpg" alt="verduras en un supermercado" style="width:200px;">
-          <figcaption style="margin-left: -8px;">lineal de verduras en un supermercado</figcaption>
-        </figure>
-      </section>
-      <h2>Formularios</h2>
-        <form>
-          <label for="Nombre">
-            <span>¿Quién eres?</span>
-            <input type="text" id="nombre" placeholder="Tu nombre">
-          </label>
-          <label for="fecha-nacimiento">
-            <span>Introduce tu fecha de nacimiento</span>
-            <input type="date" id="fecha-nacimiento">
-          </label>
-          <label for="horario">
-            <span>Horario preferido para comer</span>
-            <input type="time" id="horario">
-          </label>
-        </form>
-        <!-- <form action="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="página de prueba de HTML">
+  <meta name="viewport" content="width=device-width, initial-scale=1-0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Mi página</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <h1>Vamos a comer</h1>
+    <nav>
+      <ul class="main-nav">
+        <li class="main-nav-item"><a href="">Home</a></li>
+        <li class="main-nav-item"><a href="">Recetas</a></li>
+        <li class="main-nav-item alt-main-nav-item"><a href="">Formularios</a></li>
+        <li class="main-nav-item"><a href="./login.html">Log in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Lista de la compra</h2>
+    <section class=" compra">
+      <ul>
+        <li class="lista">Carne</li>
+        <ol>
+          <li><a href="https://www.bonviveur.es/recetas/lomo-de-cerdo-adobado">Lomo de cerdo</a></li>
+          <li><a
+              href="https://www.recetasderechupete.com/alitas-de-pollo-al-horno-con-salsa-de-soja-miel-y-limon/9995/">Alitas
+              de pollo</a></li>
+        </ol>
+      </ul>
+      <ul>
+        <li class="lista">Verdura</li>
+        <ol>
+          <li><a href="https://www.hogarmania.com/cocina/recetas/postres/tarta-calabaza-9752.html">Calabaza</li></a>
+          <li><a href="https://www.cocinatis.com/receta/tomates-verdes-fritos-una-receta-con-nombre-de-pelicula">Tomates
+          </li></a>
+        </ol>
+      </ul>
+      <ul>
+        <li class="lista">Pescado</li>
+        <ol>
+          <li><a href="https://comerjapones.com/shimesaba-receta">Caballa</li></a>
+          <li><a href="https://www.recetasderechupete.com/como-hacer-sepia-al-ajillo/20941/">Sepia</li></a>
+        </ol>
+      </ul>
+    </section>
+    <section class="compra foto-compra">
+      <figure class="foto-verduras">
+        <img src="./tinified/chiquita.jpg" alt="verduras en un supermercado" style="width:200px;">
+        <figcaption style="margin-left: -8px;">lineal de verduras en un supermercado</figcaption>
+      </figure>
+    </section>
+    <h2>Formularios</h2>
+    <form action="https://adalab-server-form.herokuapp.com/" method="POST">
+      <!--los method que más se usan son POST y GET y habla de como se envían los datos del formulario
+      input es el campo de entrada, label lo que acompaña y hace referencia al input
+      placeholder como ejemplo de lo que se tiene que escribir y type para que especifiquemos que esperams
+      que el usuario ponga, o para crear el botón de enviar con type="submit"
+    -->
+
+      <!--fieldset sirve para crear un apartado dentro del formulario
+      legend es el texto que acompaña y aclara el fieldset-->
+      <fieldset>
+        <legend>Datos personales:</legend>
+
+
+        <label for="Nombre">¿Quién eres?</label>
+        <input class="formulario" type="text" id="nombre" name="nombre" placeholder="Tu nombre" minlength="5" required>
+        <!--se usa id para el label y name para el backend
+      required es lo que hace q un campo sea obligatorio-->
+
+
+        <label for="fecha-nacimiento">Introduce tu fecha de nacimiento</label>
+        <input class="formulario" type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+
+
+
+        <label for="horario">Horario preferido para comer</label>
+        <input class="formulario" type="time" name="horario" id="horario">
+        <label for="emailAddress">Correo electrónico</label>
+        <input class="formulario" type="email" id="emailAddress" name="emailAddress">
+
+
+
+        <label class="formulario" for="password">Contraseña</label>
+        <input type="password" id="password" name="password" maxlength="12">
+        <!--para crear un patrón que dice que no puede usar ciertos caracteres especiales o tal, una forma sencilla es usar dentro del input el atributo pattern="^[a-zA-Z]$" esto haría q solo pudieras escribir caracteres que fueran letras, se llaman expresiones regulares y mucha gente ya lo ha creado y se puede usar el de otra persona y fin-->
+
+        <label class="formulario" for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label class="formulario" for="age">Edad</label>
+        <input type="number" id="age" name="age" max="100" min="18">
+      </fieldset>
+      <input type="submit" value="Enviar info">
+      <!-- value es lo que mostrará el botón, puede no ponerse pero entonces el navegador pondrá
+          lo q sea por defecto -->
+      <input type="reset" value="borrar datos">
+
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>ejemplos de no se puede escribir, debe seleccionar</legend>
+        <label for="select"></label>
+        <select name="select" id="select">
+          <option value="option1">option1</option>
+          <option value="option2">option2</option>
+          <option value="option3">option3</option>
+        </select>
+        <label for="radio1">si</label>
+        <input type="radio" name="radio" value="si" id="radio1">
+        <label for="radio2">no</label>
+        <input type="radio" name="radio" value="no" id="radio2">
+
+        <!--aqui es obligatorio que tengan el mismo nombre (recuerda q el nombre es lo que te vincula con el backend) ya que son una respuesta A o B para la misma pregunta, solo podríamos enviar una respuesta-->
+        <label for="cheboxtype1">alergia a los cacahuetes</label>
+        <input type="checkbox" name="checkboxtype" value="a" id="cheboxtype1">
+        <label for="cheboxtype2">Intolerancia a la lactosa</label>
+        <input type="checkbox" name="checkboxtype" value="a" id="cheboxtype2">
+      </fieldset>
+
+
+
+      <input type="submit" value="Enviar info">
+
+    </form>
+    <!-- <form action="">
           <label for="hora">
             <span>Hora</span>
             <input type="time" id="hora" name="hora">
@@ -85,7 +151,7 @@
           <input type="submit">
         </form> forma larga de hacer un calendario. salen varias capsulas para cada cosa
       Para convertir texto en comentario y que el navcegador no lo lea
-    CRTL k y luego CRTL C--> 
+    CRTL k y luego CRTL C-->
     <form>
       <label for="calendario">
         <span>¿Cuándo quedamos a comer?</span>
@@ -95,31 +161,32 @@
     </form>
     <form>
       <label for="correo">
-          <span>Correo</span>
-          <input type="email" id="correo" name="correo" autocomplete="email" required>
+        <span>Correo</span>
+        <input type="email" id="correo" name="correo" autocomplete="email" required>
       </label>
       <label for="pais">
-          <span>País</span>
-          <input type="text" id="pais" name="pais" autocomplete="country" required>
+        <span>País</span>
+        <input type="text" id="pais" name="pais" autocomplete="country" required>
       </label>
       <label for="codigopostal">
-          <span>Código Postal</span>
-          <input type="number" id="codigopostal" name="codigopostal" autocomplete="postal-code" required>
+        <span>Código Postal</span>
+        <input type="number" id="codigopostal" name="codigopostal" autocomplete="postal-code" required>
       </label>
       <p>
-      <span>Elige un plato principal</span>
-      <input list="comidas">      
-      <datalist id="comidas">
-        <option value="lomo de cerdo"></option>
-        <option value="alitas"></option>
-        <option value="caballa"></option>
-        <option value="sepia"></option>
-      </datalist>
-      <input type="submit">
+        <label class="formulario">Elige un plato principal</label>
+        <input list="comidas">
+        <datalist id="comidas">
+          <option value="lomo de cerdo"></option>
+          <option value="alitas"></option>
+          <option value="caballa"></option>
+          <option value="sepia"></option>
+        </datalist>
+        <input type="submit">
       </p>
     </form>
-    
-    </main>
-    <footer></footer>
-  </body>
+
+  </main>
+  <footer></footer>
+</body>
+
 </html>

@@ -58,7 +58,39 @@ li {
     display: none;
 }
 
-
-
-
-
+body{margin:0;}
+.wrapper{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat (12, 1fr); /*para no poner 12 veces 1fr*/
+  grid-template-rows: 20vh 80vh 20vh;
+  grid-gap: 0px;
+}
+/*existe la posibilidad de darle tamaño fijo de pixeles a las columnas, pero no se usa, también puedes darle más tamaño al grid que a los objetos de tal maenera que haya un espacio entre ellos. También puede especificarse que una columna es el doble de grande poniendo: repeat (3, 1fr) 2fr Ahí saldrían 4 columnas, 3"sencillas" y una el doble de grande
+las filas no se usan ni fr ni pixeles.Normalmente se usa auto o vh o %, con pixeles no será flexible. Puedes decirle a una auto (es ajustará al tamaño del contenido) y a la segunda le puedes decir que 20rem o lo q sea.
+*/
+.item{
+  background: deeppink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.item1 {
+    grid-column: span 12;
+    background-color: lightpink;
+}
+.item2 {
+    grid-column: span 5;
+    background-color: purple;
+}
+.item3 {
+    grid-column: span 7;
+    background-color: coral;
+}
+.item4 {
+    grid-column: span 12;
+    background-color: lightblue;
+}
+/* se puede hacer un grid en base a llamar a un contenedor header y etc y luego poner en grid-template-areas: 'header header header' y en el objeto poner grid-area:header. De esta forma ocuparía 3 filas.*/

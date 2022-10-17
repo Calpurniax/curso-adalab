@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+.listado {
+    line-height: 5rem;
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer; /*para crear el cambio de puntero*/
+}
+.tooltip {
+    display: none;
+    background-color: white;
+    border: solid lightgrey 0.1rem;
+    text-align: center;
+    position: relative;
+    top: -220px;
+    left: 50px;
+    width: 400px;
+    height: 200px;
+}
+
+/*esta parte es la que dice, cuando hagas hover en un sitio, activa este otro sitio*/
+
+.listado1:hover + .tooltip {
+   display: block;
+   } 
+

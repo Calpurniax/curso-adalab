@@ -85,8 +85,10 @@ figcaption {
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
-
-span {
+.formulario {
+  display: block;
+}
+label {
   color: rgb(196, 102, 15);
   font-size: 1.4rem;  
 }

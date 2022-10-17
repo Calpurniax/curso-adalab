@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.header {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 10px;
+}
+.header__title {
+    margin-top: 10px;
+}
+.aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    
+}
+.aside__section {
+    padding: 10px;
+    text-align: left;
+}
+.aside__img {
+    border-radius: 50%;
+}
+.aside__nav {
+    
+    margin-top: 20px;
+}
