@@ -1,4 +1,5 @@
-"user strict"
+'use strict';
+
 // definimos los datos
 const firstDogImage =
   'https://images.dog.ceo/breeds/schipperke/n02104365_8156.jpg';

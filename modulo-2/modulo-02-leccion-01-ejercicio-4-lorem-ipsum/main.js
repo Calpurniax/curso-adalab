@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 
 //para cambiar el contenido del texto
