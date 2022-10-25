@@ -12,6 +12,7 @@ const text = document.querySelector(".text");
 
 btn.addEventListener('click', ()=>{
     filmText.innerHTML= `<ul class="js-list"><li>${inception}</li><li>${theButterFlyEffect}</li><li>${eternalSunshineOfTheSM}</li> <li>${blueVelvet}</li><li>${split}</li>`   //esto hace que se cree la lista
+    //también podrías aquí usar la constante de la lista, ya que has hecho un "class js-list" al crear la lista
     filmText.addEventListener('click', (event)=>{       
         const selectedFilm = event.target.innerHTML; //almacena el valor en el que se hace click
         text.innerHTML = `la peli seleecionada es: ${selectedFilm}`;
