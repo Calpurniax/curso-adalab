@@ -13,7 +13,7 @@ function boxSize (){
         console.log (`El ancho del contenido es: ${content} y el ancho total de la caja es: ${width}`);
     }else {
         const box = (width + notContent);
-        const result = console.log (`El ancho del contenido es: ${width} y el ancho total de la caja es: ${box}`);
+        console.log (`El ancho del contenido es: ${width} y el ancho total de la caja es: ${box}`);
     }
 }
 console.log (boxSize ());
