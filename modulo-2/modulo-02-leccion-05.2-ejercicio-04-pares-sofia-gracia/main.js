@@ -1,4 +1,4 @@
-'user strictS'
+'use strict'
 
 //funcion para que de true si un número es par
 
