@@ -1,0 +1,10 @@
+@import 'core/reset';
+@import 'core/mixin';
+@import 'core/variables';
+@import 'components/title';
+@import 'layout/header';
+@import 'layout/body';
+
+* {
+    font-family: $fontrubik;
+}
