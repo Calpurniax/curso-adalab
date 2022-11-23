@@ -23,7 +23,7 @@ function App() {
       setCebollaText('eres un robot sin paladar')
     }
   }
-
+  // {/*PROBAR A HACERLO CON ONCLICK NO ONCHANGE*/}
 
   return (
     <div className='App'>
