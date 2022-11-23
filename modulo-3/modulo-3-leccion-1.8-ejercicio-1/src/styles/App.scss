@@ -1,0 +1,18 @@
+/*@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'pages/index'; */
+@import 'core/variables';
+@import 'core/reset';
+@import 'core/mixin';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'pages/contact';
+@import 'layout/team';
+@import 'layout/skills';
+@import 'layout/members';
+@import 'layout/footer';
+
+:root {
+    overflow-x: hidden;
+}
