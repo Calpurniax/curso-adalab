@@ -1,0 +1,16 @@
+@import '../core/mixin';
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-bottom: 0.813rem;
+
+    @include tablet {
+        justify-content: flex-end;
+        margin-right: 1.875rem;
+    }
+
+
+}

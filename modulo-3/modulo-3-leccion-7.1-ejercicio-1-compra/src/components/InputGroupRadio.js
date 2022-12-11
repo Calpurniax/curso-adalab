@@ -1,32 +1,36 @@
 import PropTypes from 'prop-types';
-const InGroupText = (props) => {
-    const handleInputChange = (ev) => {
+const InputGroupRadio = (props) => {
+    const handleChangeRadio = (ev) => {
         props.onChange(ev.target.value)
     }
     return (
-        <div className="input-group-text">
-            <label className="label-text" htmlFor={props.htmlFor}>
+
+        <div className="input-group-radio">
+            <label className="label-radio" htmlFor={props.htmlFor}>
                 {props.labelText}
             </label>
+
             <input
-                className="input-text"
                 type={props.type}
                 name={props.name}
                 id={props.id}
-                placeholder={props.placeholder}
                 value={props.value}
-                onChange={handleInputChange}
+                checked={props.checked}
+                onChange={handleChangeRadio}
             />
         </div>
+
+
     )
 };
-InGroupText.propTypes = {
+InputGroupRadio.propTypes = {
     htmlFor: PropTypes.string.isRequired,
     labelText: PropTypes.string,
     type: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired,
+    checked: PropTypes.bool,
     onChange: PropTypes.func.isRequired,
 }
-export default InGroupText
+export default InputGroupRadio

@@ -1,0 +1,17 @@
+@import '../core/mixin';
+@import '../core/variables';
+
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 1;
+    background-color: $backgroundheader;
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}

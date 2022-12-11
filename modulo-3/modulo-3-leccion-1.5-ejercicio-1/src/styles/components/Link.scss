@@ -1,0 +1,9 @@
+@import '../core/variables';
+
+.nav__links a {
+    text-decoration: none;
+    color: $menutext;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+}

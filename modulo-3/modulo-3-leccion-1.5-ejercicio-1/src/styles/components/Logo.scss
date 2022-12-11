@@ -1,0 +1,17 @@
+@import '../core/mixin';
+
+.header__logo {
+    margin: auto;
+    text-align: center;
+    width: 155px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding: 5px;
+
+    @include tablet {
+        margin-left: 1.875rem;
+        text-align: left;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+}

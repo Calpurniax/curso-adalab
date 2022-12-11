@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const Preview = (props) => {
 
     const renderPaymentTypeText = (props) => {
@@ -25,4 +26,11 @@ const Preview = (props) => {
         </div>
     )
 };
+Preview.propTypes = {
+    name: PropTypes.string,
+    email: PropTypes.string,
+    region: PropTypes.string,
+    legalTerms: PropTypes.bool.isRequired,
+    paymentType: PropTypes.string.isRequired,
+}
 export default Preview
