@@ -5,6 +5,7 @@ function App() {
   const [numberA, setNumberA] = useState(0);
   const [numberB, setNumberB] = useState(0);
   const [operator, setOperator] = useState('+');
+  let total = 0;
 
 
   const handleNumberA = (ev) => {
@@ -18,14 +19,15 @@ function App() {
   };
   const renderTotal = () => {
     if (operator === '+') {
-      return (parseInt(numberA) + parseInt(numberA));
+      total = (parseInt(numberA) + parseInt(numberB));
     } else if (operator === '-') {
-      return (parseInt(numberA) - parseInt(numberA));
+      total = (parseInt(numberA) - parseInt(numberB));
     } else if (operator === '*') {
-      return (parseInt(numberA) * parseInt(numberA));
+      total = (parseInt(numberA) * parseInt(numberB));
     } else if (operator === '/') {
-      return (parseInt(numberA) / parseInt(numberA));
+      total = (parseInt(numberA) / parseInt(numberB));
     }
+    return total;
   }
 
   const changeOperator = (ev) => {
